@@ -14,9 +14,7 @@
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png" />
-        </div>
+        hello
     </header>
     <main>
         <section class="main-section">
@@ -26,26 +24,32 @@
             </h2>
 
             <div class="main-body">
-                <p class="rules">
                 <h3>HERE ARE THE RULES!</h3>
                 <ul>
                     <li>Take a stab at it!!</li>
                     <li>Three chances to get it right...</li>
                     <li>Pick a number 1-20.</li>
                 </ul>
-                </p>
-                <button id="submit">PRESS TO GUESS</button>
-                <div class="results-div"></div>
+                <div>
+                    <label for="guessField">Enter a guess: </label><input type="text" id="guessField"
+                        class="guessField">
+                    <input type="submit" value="Submit guess" class="guessSubmit">
+                    <p>
+                        <img src="assets/or-else.jpeg" 200>
+                    </p>
+                </div>
             </div>
-            <p>
-                <img src="assets/or-else.jpeg" 200>
-            </p>
+            <div class="resultParas">
+                <p class="guesses"></p>
+                <p class="lastResult"></p>
+                <p class="lowOrHi"></p>
+                <button class="resetButton"></button>
             </div>
 
         </section>
     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+        goodbye
     </footer>
 
     <script type="module" src="./app.js"></script>
