@@ -37,6 +37,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: space-around;
     align-items: center;
     padding-top: var(--gutter);
     padding-bottom: var(--gutter);
@@ -47,7 +48,7 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
@@ -62,8 +63,9 @@ footer {
 
 
 h2 {
-    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    font-size: larger;
 }
 
 .gutter-right {
@@ -104,7 +106,7 @@ footer {
     justify-content: center;
 }
 
-#guess {
+#submit {
     width: 30%;
 }
 

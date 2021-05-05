@@ -1,11 +1,14 @@
 // import functions and grab DOM elements
-
-const button = document.getElementById('guess');
-const resultsDiv = document.getElementById('results-div');
+import { compareNumbers } from './utils.js'
 
 // initialize state
 
+
+const button = document.getElementById('submit');
+const resultsDiv = document.getElementById('results-div');
+const userGuess = document.getElementById('userInput')
+
 button.addEventListener('click', () => {
-    const firstTry = prompt('Pick a nummber 1-20.')
-    
+    const userGuess = Number(userInput.value) 
+
 });
