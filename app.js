@@ -1,6 +1,11 @@
 // import functions and grab DOM elements
 
+const button = document.getElementById('guess');
+const resultsDiv = document.getElementById('results-div');
+
 // initialize state
 
-// set event listeners to update state and DOM
-Math.ceil(Math.random() * 20);
+button.addEventListener('click', () => {
+    const firstTry = prompt('Pick a nummber 1-20.')
+    
+});
